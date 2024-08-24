@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour Guide</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">TOUR-GUIDE</div>
+                <nav>
+                    <ul>
+                        <li><a href="#">Stories</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Write to us</a></li>
+                    </ul>
+                </nav>
+                <a href="#"><img src="img/icons8-facebook-новый-30.png" alt="Facebook"></a>
+                <a href="#"><img src="img/icons8-твиттер-30.png" alt="Twitter"></a>
+                <a href="#"><img src="img/icons8-instagram-30.png" alt="Instagram"></a>
+                <a href="#"><img src="img/icons8-youtube-30.png" alt="YouTube"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="greeting">
+        <div class="container">
+            <div class="greeting-content">
+                <div class="greeting-text">
+                    <h1>Let's hit the road</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce blandit turpis a elit interdum. Duis blandit mollis turpis, vehicula turpis.</p>
+                    <button>Start</button>
+                </div>
+                <div class="greeting-image">
+                    <img src="img/nature (4).jpg" alt="Campfire">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="articles">
+        <div class="container">
+            <div class="article">
+                <div class="article-image">
+                    <img src="img/nature (6).jpg" alt="Story Image 1">
+                </div>
+                <div class="article-text">
+                    <h3>Story</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sed orci et est iaculis egestas.</p>
+                    <button>More</button>
+                </div>
+            </div>
+            <div class="article">
+                <div class="article-image">
+                    <img src="img/nature (7).jpg" alt="Story Image 2">
+                </div>
+                <div class="article-text">
+                    <h3>Story</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sed orci et est iaculis egestas.</p>
+                    <button>More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="gallery">
+        <div class="container">
+            <div class="gallery-grid">
+                <img src="img/art.jpg" alt="Gallery Image 1">
+                <img src="img/nature (12).jpg" alt="Gallery Image 2">
+                <img src="img/nature (8).jpg" alt="Gallery Image 3">
+            </div>
+        </div>
+    </section>
+
+
+    <section class="features">
+        <div class="container features-container">
+            <div class="feature">
+                <div class="feature-image">
+                    <img src="img/icons8-самолет-100.png" alt="Feature Image 1">
+                </div>
+                <h4>One</h4>
+                <p>Dies vel eust nolo. Ois sel denonstrum magna.</p>
+            </div>
+            <div class="feature">
+                <div class="feature-image">
+                    <img src="img/icons8-карта-100.png" alt="Feature Image 2">
+                </div>
+                <h4>Two</h4>
+                <p>Cas impeditet angue et entiasod mollis.</p>
+            </div>
+            <div class="feature">
+                <div class="feature-image">
+                    <img src="img/icons8-тайм-код-100.png" alt="Feature Image 3">
+                </div>
+                <h4>Three</h4>
+                <p>Phasellus sit amet lacus orci. Aliquam acurrum.</p>
+            </div>
+            <div class="feature">
+                <div class="feature-image">
+                    <img src="img/icons8-часы-100.png" alt="Feature Image 4">
+                </div>
+                <h4>Four</h4>
+                <p>Vestibulum consequat felis mi.</p>
+            </div>
+            <div class="feature">
+                <div class="feature-image">
+                    <img src="img/icons8-face-id-100.png" alt="Feature Image 5">
+                </div>
+                <h4>Five</h4>
+                <p>Nullam nec elit nec augue commodo ultrices.</p>
+            </div>
+            <div class="feature">
+                <div class="feature-image">
+                    <img src="img/icons8-молекула-100.png" alt="Feature Image 6">
+                </div>
+                <h4>Six</h4>
+                <p>Donec mollis massa id lectus fermentum.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="contact">
+        <div class="container contact">
+            <form action="#">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label>Contact me via:</label>
+                    <label><input type="radio" name="contact" value="email" required> Email</label>
+                    <label><input type="radio" name="contact" value="phone"> Phone</label>
+                    <label><input type="radio" name="contact" value="telegram"> Telegram</label>
+                </div>
+                <div class="form-group">
+                    <label for="topic">Topic</label>
+                    <select id="topic" name="topic" required>
+                        <option value="story">Post my story</option>
+                        <option value="journey">Join the journey</option>
+                        <option value="filming">Participate in filming</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <div class="recaptcha">
+                    <input type="checkbox" id="recaptcha" required>
+                    <label for="recaptcha">I am not a robot</label>
+                </div>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+<footer>
+    <div class="container footer-content">
+        <div class="footer-images">
+        <div class="footer-text">
+            <p>© UNTITLED 2019</p>
+            <div class="social-links">
+                <a href="#"><img src="img/icons8-facebook-новый-30.png" alt="Facebook"></a>
+                <a href="#"><img src="img/icons8-твиттер-30.png" alt="Twitter"></a> 
+                <a href="#"><img src="img/icons8-instagram-30.png" alt="Instagram"></a>
+                <a href="#"><img src="img/icons8-твиттер-30.png" alt="YouTube"></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+</html>
